@@ -7,9 +7,9 @@
 <body>
 <p>
     <h4> my first js program.</h4>
-   <p id="name"></p>
+   
   <script>
-      document.getElementById("name").innerHTML="My name is Kelvin";
+      document.write("my name is kelvin");
   </script>
 </p>
 
@@ -26,7 +26,46 @@
 <button type="button"
 onclick="myFunction()">read me.</button>
 </p>
-  
+
+
+Javascript typeof operator;
+
+  <p id="type"></p>
+  <script>
+   document.getElementById("type").innerHTML=
+   
+    typeof "kelvin" + "<br>" +
+   typeof 56
+
+  </script>
+
+
+
+  <h2>Javascript if statement</h2>
+  <p id="if"></p>
+   <script>
+       if(5*5 >26)
+       {
+           document.getElementById("if").innerHTML="statement is true";
+       }
+       else
+       {
+        document.getElementById("if").innerHTML="statement is not true";  
+       }
+   </script>
+
+<script>
+    function myName()
+    {
+        document.write("is everything okey?")
+    }
+</script>
+<p>
+    <button type="button"
+onclick="myName()">read me.</button>
+</p>
+
+
 
 </body>
 </html>
