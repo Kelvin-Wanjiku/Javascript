@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        1st number:<input type="text" id="Fnumber"/> <br>
+        2nd number: <input type="text" id="secondNumber"/> <br>
+        <input type="button"onclick="multiplyBy()" value="multiply"/>
+        <input type="button"onclick="divideBy()" value="divide"/>
+
+    </form>
+    <p>The result is: <br>
+        <span id="result"></span> 
+    
+    </p>
+    <script>
+        function multiplyBy()
+        {
+            num1=document.getElementById("Fnumber").value;
+            num2=document.getElementById("secondNumber").value;
+            document.getElementById("result").innerHTML= num1 * num2
+        }
+
+        function divideBy()
+        {
+            num1=document.getElementById("Fnumber").value;
+            num2=document.getElementById("secondNumber").value;
+            document.getElementById("result").innerHTML= num1 / num2   
+        }
+    </script>
+
+</body>
+</html>
