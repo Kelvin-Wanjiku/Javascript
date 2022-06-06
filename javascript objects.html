@@ -19,5 +19,16 @@
         document.write(student.name + " of age " + student.age + " studies " + student.course);
 
     </script>
+
+    <script>
+        function stud(name, age, studies){
+            this.name= name;
+            this.age= age;
+            this.studies= studies;
+
+        }
+        var student=stud("Chris", 21, "computer science");
+        document.write(student.name + "age of student" + student.age + "studies" + student.studies)
+    </script>
 </body>
 </html>
