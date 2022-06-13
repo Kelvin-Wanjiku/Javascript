@@ -1,0 +1,53 @@
+.body{
+   margin: 10px;
+   padding: 3px;
+}
+
+
+#page-banner{
+   background-color: chartreuse;
+   background-size: 100%;
+   align-items: center;
+   padding: 10px 0;
+}
+#page-banner h1,
+#page-banner p{
+   width: 100%;
+   text-align: center;
+   margin: 10px 0;
+}
+#movie-list,
+#add-movie{
+   margin: 30px;
+}
+#movie-list ul{
+   list-style-type: none;
+   padding: 0;
+}
+
+#movie-list li{
+   padding: 20px;
+   border-left: 5px;
+   margin: 20px 10px;
+}
+
+#movie-list li:hover{
+border-color: blue;
+}
+
+.delete{
+   float: right;
+   background-color: red;
+   padding: 6px;
+   border-radius: 4px;
+   cursor: pointer;
+   color: white;
+}
+
+.delete:hover{
+   background: maroon;
+}
+
+#add-movie{
+   width: 400px;
+}
